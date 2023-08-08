@@ -5,6 +5,8 @@ import bodyParser from 'body-parser'
 import postRoutes from './routes/posts.js' 
 import express from 'express'
 
+//Hello thanks for reviewing
+
 const app = express()
 app.use(bodyParser.json({limit: "30mb",extended: true}))
 app.use(bodyParser.urlencoded({limit: "30mb",extended: true}))
